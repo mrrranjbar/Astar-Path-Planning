@@ -173,7 +173,7 @@ public class AStar {
                 break;
             }
             FanTail(vt1.pre, vt1, 3);
-            mh.ProcessedVertices.add(vt1);
+            //mh.ProcessedVertices.add(vt1);
             count++;
         }
     }
